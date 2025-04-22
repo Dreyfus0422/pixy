@@ -103,7 +103,6 @@ controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 info.onLifeZero(function () {
     game.gameOver(false)
-    game.setGameOverEffect(false, effects.melt)
 })
 let projectile: Sprite = null
 let mySprite: Sprite = null
